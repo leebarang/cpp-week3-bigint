@@ -21,7 +21,7 @@ BigInt는 C++로 작성된 프로젝트로, 매우 큰 정수의 합과 차를 �
 git clone https://github.com/leebarang/cpp-week3-bigint.git bigint
 cd bigint
 
-g++ -Weeror -c main.cpp sum2.cpp sub2.cpp util.cpp
+g++ -Werror -c main.cpp sum2.cpp sub2.cpp util.cpp
 g++ -o main.exe main.o sum2.o sub2.o util.o
 ./main.exe
 ```
